@@ -188,9 +188,10 @@ Go-Blog-Aggregator/
 ├── sql/
 │   ├── schema/              # Goose migration files (run these to set up the DB)
 │   └── queries/             # SQL queries used by sqlc to generate Go code
-└── internal/
-├── database/            # Auto-generated sqlc database layer (models, queries)
-└── RSS/                 # Internal RSS feed fetching and parsing package
+├── internal/
+│   ├── database/            # Auto-generated sqlc database layer (models, queries)
+│   ├── RSS/                 # Internal RSS feed fetching and parsing package
+│   └── config/              # Config file control	
 ```
 
 ---
